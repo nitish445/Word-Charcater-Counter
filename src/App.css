@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url("./background.jpeg");
+  background-color: #222;
+  color: #eee;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url("./background.jpeg");
+  height: 100vh;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+#top, h1 {
+  font-size: 2rem;
+  margin: 20px 0;
+  color: #eee;
+}
+
+#top {
+  color: #3bffe2;
+}
+
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
