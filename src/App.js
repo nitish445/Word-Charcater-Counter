@@ -8,7 +8,7 @@ function App() {
 			<h1 id="top"> Counter
 			</h1> 
 			<h1> 
-			Counter No of Words and Character
+			Count Number of Words and Character
 			</h1> 
 			<WordLetterCounter /> 
 		</div> 
